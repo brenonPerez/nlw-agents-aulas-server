@@ -29,14 +29,12 @@ O projeto segue uma arquitetura modular com:
 - Docker e Docker Compose
 
 ### 1. Clone o repositório
-
 ```bash
 git clone <url-do-repositorio>
 cd server
 ```
 
 ### 2. Configure o banco de dados
-
 ```bash
 docker-compose up -d
 ```
@@ -51,19 +49,16 @@ DATABASE_URL=postgresql://docker:docker@localhost:5432/agents
 ```
 
 ### 4. Instale as dependências
-
 ```bash
 npm install
 ```
 
 ### 5. Execute as migrações do banco
-
 ```bash
 npx drizzle-kit migrate
 ```
 
 ### 6. (Opcional) Popule o banco com dados de exemplo
-
 ```bash
 npm run db:seed
 ```
@@ -71,13 +66,11 @@ npm run db:seed
 ### 7. Execute o projeto
 
 **Desenvolvimento:**
-
 ```bash
 npm run dev
 ```
 
 **Produção:**
-
 ```bash
 npm start
 ```
@@ -97,4 +90,4 @@ A API estará disponível em `http://localhost:3333`
 
 ---
 
-Desenvolvido com ❤️ durante o NLW da Rocketseat
+Desenvolvido com ❤️ durante o NLW da Rocketseat 
